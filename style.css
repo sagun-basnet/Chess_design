@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main-container .chessBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    background-color: rgb(240, 159, 102);
+}
+.main-container .chessBox .main-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    height: 85%;
+    width: 85%;
+}
+.main-container .chessBox .main-border .number{
+    border: 2px solid red;
+    font-weight: 1000;
+    height: 90%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-container .chessBox .main-border .number .num{
+    border: 2px solid black;
+    margin: 25px;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container .chessBox .chessBorder{
+    border: 4px solid black;
+    height: 90%;
+    width: 90%;
+}
+.main-container .chessBox .chessBorder .row{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 12.5%;
+}
+.main-container .chessBox .chessBorder .row .smallBox-white{
+
+    width: 12.5%;
+    height: 100%;
+}
+.main-container .chessBox .chessBorder .row .smallBox-black{
+    background-color: black;
+    width: 12.5%;
+    height: 100%;
+}
+.main-container .chessBox .main-border .alphabet{
+    border: 2px solid green;
+    font-weight: 1000;
+    height: 100%;
+    /* width: 90%; */
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.main-container .chessBox .main-border .alphabet .alp{
+    border: 2px solid black;
+    margin: 25px;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
