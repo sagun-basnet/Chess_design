@@ -12,7 +12,7 @@
 .chessBoard{
     background: rgb(240, 159, 102);
     height: 90%;
-    width: 90%;
+    width: 70%;
     display: grid;
     place-items: center;
 }
